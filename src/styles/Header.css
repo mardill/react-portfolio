@@ -1,0 +1,84 @@
+/* .header {
+  background: #f9b713;
+  height: 200px;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+} */
+
+
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: #006694;
+    --light: #d3e3d6;
+    --bright: #a8d9ec;
+    --accent: #f37160;
+  }
+
+/* adding box-sizing to contain child container within parent*/
+*{
+    box-sizing:border-box;
+}
+
+/* divs will stack on top unless otherwise stated*/
+div{
+    display: block;
+}
+
+/* created white border around webpage for style*/
+body{
+    border:20px solid white;
+}
+
+/* link styling*/
+a, a h3{
+    text-decoration: none;
+    color:var(--dark);
+    text-transform: lowercase;
+}
+
+/* header styling*/
+h1,h2,h3,h4{
+    font-family: 'Khula', sans-serif;
+    text-transform: uppercase;
+    font-size:30px;
+    color:var(--dark)
+}
+
+p, a{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+}
+
+/* header sections*/
+
+/* creating header with color & text-alignment */
+header{
+    background-color:var(--light);
+    text-align: center;
+    height:300px;
+    display:block;
+}
+
+/* styles header text larger & positions */
+header h1{
+   align-self: flex-end;
+   font-family: 'Khula', sans-serif;
+   color:var(--dark);
+   font-size: 50px;
+   padding-top:100px;
+
+}
+
+header nav a{
+    padding:20px;
+}
+
+a:hover, a h3:hover{
+    color:#f37160;
+}
