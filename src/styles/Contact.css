@@ -1,0 +1,37 @@
+/* contact section */
+
+/* create 2 equal sections in the contact container. 1 for description & one for links
+with contact info */
+
+#contact{
+    display: flex;
+}
+
+/* left box styling */
+#contact .left-contact{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    background-color:var(--bright) ;
+}
+
+#contact .left-contact h2, #contact .left-contact p{
+    width:80%;
+    padding-left:50px;
+}
+
+#contact .left-contact h2{
+    padding-top:20px;
+}
+
+#contact .left-contact p{
+    padding-bottom:20px;
+}
+
+/* right box styling */
+#contact .right-contact{
+    padding-top:10px;
+    width:50%;
+    background-color:var(--light);
+    text-align: center;
+}

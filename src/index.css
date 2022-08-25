@@ -1,0 +1,295 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: #006694;
+    --light: #d3e3d6;
+    --bright: #a8d9ec;
+    --accent: #f37160;
+  }
+
+/* adding box-sizing to contain child container within parent*/
+*{
+    box-sizing:border-box;
+}
+
+/* divs will stack on top unless otherwise stated*/
+div{
+    display: block;
+}
+
+/* created white border around webpage for style*/
+body{
+    border:20px solid white;
+}
+
+/* link styling*/
+a, a h3{
+    text-decoration: none;
+    color:var(--dark);
+    text-transform: lowercase;
+}
+
+/* header styling*/
+h1,h2,h3,h4{
+    font-family: 'Khula', sans-serif;
+    text-transform: uppercase;
+    font-size:30px;
+    color:var(--dark)
+}
+
+p, a{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+}
+
+/* header sections*/
+
+/* creating header with color & text-alignment */
+header{
+    background-color:var(--light);
+    text-align: center;
+    height:100px;
+    display:block;
+}
+
+/* styles header text larger & positions */
+header h1{
+   align-self: flex-end;
+   font-family: 'Khula', sans-serif;
+   color:var(--dark);
+   font-size: 30px;
+   padding-top:50px;
+
+}
+
+header nav a{
+    padding:20px;
+}
+
+a:hover, a h3:hover{
+    color:#f37160;
+}
+
+.nav a{
+    text-decoration: none;
+    color:var(--dark);
+    text-transform: lowercase;
+}
+
+.nav a:hover {
+    color:#f37160;
+}
+
+/* about me section*/
+
+/* creates about container with flex. Partitions into two equal containers */
+#about {
+    display: flex;
+}
+
+
+/* right container styling, establish flex box, and setting width to 50% for each */
+#about .right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:var(--bright) ;
+    width:50%;
+}
+
+#about .right p, #about .right h1{
+    width:80%;
+    padding-left:50px;
+}
+
+#about .right h1{
+    padding-top:100px;
+}
+
+#about .right p{
+    padding-bottom:100px;
+}
+
+/* left container styling. sets to flex display and image styling */
+#about .left{
+    display: flex;
+    width:50%;
+    justify-content: center;
+}
+
+.left img{
+    max-height:400px;
+    max-width: auto;
+    align-self: center;
+}
+
+
+/* work section*/
+
+/* styles three work sections: work heading with info, work highlight img, & other work cards.
+sets top half of work section to column & cards to row */
+
+#work{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    clear:both;
+    margin-top:2px;
+}
+
+/* work intro heading & paragraph. postitions heading on top of paragraph. sets styling between divs. */
+
+#work .intro{
+    max-height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+/* using inner wrapper to make take width smaller and have
+black lined to seperate content stylistically */
+#work .intro .intro-wrapper{
+    width: 500px;
+    align-self: center;
+    /* border-top:1px solid black; */
+    padding-top:50px;
+}
+
+/* aligns text center within the wrapper */
+#work .intro p, #work .intro h2{
+    text-align: center;
+}
+
+#work .intro p{
+    padding-bottom:50px;
+}
+
+
+/* highlighted work example setting img bigger than other work samples */
+
+#work .work-highlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--light);
+    text-align: center;
+}
+
+#work .work-highlight img{
+    max-width: 100%;
+    max-height:auto;
+    padding-top:20px;
+    padding: 50px;
+    filter: grayscale(100%);
+}
+
+
+/* addition work section creating row of cards displaying work smaller than highlight. */
+#work .other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:50px;
+    padding:30px;
+    padding-bottom:100px;
+}
+
+/* styling for 3 cards with work samples to appear in one row */
+#work .other .p1, #work .other .p2,#work .other .p3{
+    width: 33%;
+    text-align: center;
+    padding:20px;
+    background-color:var(--light);
+    color:var(--dark);
+}
+
+/* sets photos to black & white + fits to work display card */
+#work .other .p1 img, #work .other .p2 img, #work .other .p3 img{
+    max-width:100%;
+    max-height:auto;
+    filter: grayscale(100%);
+}
+
+
+/* shows original photo color on hover */
+#work img:hover{
+    filter:none;
+}
+
+#work .other .p1 img:hover, #work .other .p2 img:hover, #work .other .p3 img:hover{
+    filter:none;
+}
+
+
+/* contact section */
+
+/* create 2 equal sections in the contact container. 1 for description & one for links
+with contact info */
+
+#contact{
+    display: flex;
+    align-items: center;
+    background-color: var(--bright);
+}
+
+/* left box styling */
+#contact .left-contact{
+    display:flex;
+    flex-direction: column;
+    /* width:50%; */
+    background-color:var(--bright) ;
+}
+
+#contact .left-contact h2, #contact .left-contact p{
+    width:80%;
+    padding-left:50px;
+}
+
+#contact .left-contact h2{
+    padding-top:20px;
+}
+
+#contact .left-contact p{
+    padding-bottom:20px;
+}
+
+
+/* footer section */
+.footer {
+    background-color: var(--light);
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color:var(--dark);
+    text-transform: lowercase;
+}
+
+
+
+/* sets new rules for smaller screens */
+
+/* this section changes about me row stacked into columns when a screen is smaller than 860px */
+@media only screen and (max-width:860px){
+    #about, #work .other {
+        display:block;
+    }
+}
+
+/* makes sure containers in about container take up whole page when screen is smaller than 860px.
+else container will remain 50% or 33% */
+@media only screen and (max-width:860px){
+    #about .left, #about .right {
+        width:100%;
+    }
+}
+
+/* changes cards from row to comuln adding space to visually seperate each card at this screen size */
+@media only screen and (max-width:860px){
+    #work .other .p1, #work .other .p2, #work .other .p3 {
+        width:100%;
+        margin-top:15px;
+    }
+}

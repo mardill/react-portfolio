@@ -1,18 +1,31 @@
-import React from 'react';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
-
-function App() {
-  return (
-    <div>
-      <Header />
-
-      <AboutMe />
-      {/* <Card />
-      <Card /> */}
-    </div>
-  );
+function App () {
+    return (
+        <div>
+            <Header />
+            <PortfolioContainer />
+            <Footer />
+        </div>
+    );
 }
+// export default App;
+
+// function App() {
+//     return (
+//         <div>
+//             <Header />
+//             <About />
+//             <Work />
+//             <Contact />
+//         </div>
+//     );
+// }
 
 export default App;
+
+
+

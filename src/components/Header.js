@@ -1,17 +1,17 @@
 import React from 'react';
 
-import '../styles/Header.css';
+// import '../styles/Header.css';
 
 
 function Header() {
   return (
     <header className="header">
         <h1>Mary Dillon</h1>
-        <nav>
+        {/* <nav>
             <a href="#about">about</a>
             <a href="#work">work</a>
             <a href="#contact">contact</a>
-        </nav>
+        </nav> */}
     </header>
   );
 }

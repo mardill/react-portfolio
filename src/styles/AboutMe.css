@@ -1,0 +1,42 @@
+/* about me section*/
+
+/* creates about container with flex. Partitions into two equal containers */
+#about {
+    display: flex;
+}
+
+
+/* right container styling, establish flex box, and setting width to 50% for each */
+#about .right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:var(--bright) ;
+    width:50%;
+}
+
+#about .right p, #about .right h1{
+    width:80%;
+    padding-left:50px;
+}
+
+#about .right h1{
+    padding-top:100px;
+}
+
+#about .right p{
+    padding-bottom:100px;
+}
+
+/* left container styling. sets to flex display and image styling */
+#about .left{
+    display: flex;
+    width:50%;
+    justify-content: center;
+}
+
+.left img{
+    max-height:400px;
+    max-width: auto;
+    align-self: center;
+}
