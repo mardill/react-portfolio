@@ -5,7 +5,7 @@ function About() {
   return (
     <section id="about">
     <div class="left">
-          <img src="src/components/images" alt="Photo of Mary Dillon"/>
+          <img src="images/marydillon.jpg" alt="Photo of Mary Dillon"/>
      </div>
 
 
