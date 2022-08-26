@@ -4,11 +4,13 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section id="work">
+        <section id="resume">
 
 
-            <div class="intro">
-                <div class="intro-wrapper">
+            <a href="files/Resume-Mary_Dillon.pdf" download="resume-mary_dillon.pdf">Resume</a>
+
+            <div class="resumes">
+                <div class="skills">
                     <h4>Front-end Proficiencies</h4>
                     <ul>
                         <li>HTML</li>
