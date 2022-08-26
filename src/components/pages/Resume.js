@@ -6,9 +6,9 @@ function Resume() {
     return (
         <section id="resume">
 
-
-            <a href="files/Resume-Mary_Dillon.pdf" download="resume-mary_dillon.pdf">Resume</a>
-
+            <div class="download">
+                <a href="files/Resume-Mary_Dillon.pdf" download="resume-mary_dillon.pdf">Download Resume</a>
+            </div>
             <div class="resumes">
                 <div class="skills">
                     <h4>Front-end Proficiencies</h4>

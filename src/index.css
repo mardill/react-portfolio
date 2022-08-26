@@ -249,6 +249,18 @@ with contact info */
     margin-left: 20px;
 }
 
+/* resume section */
+
+.resumes {
+    margin: 50px;
+}
+
+.download {
+    margin: 50px;
+    background-color: var(--bright);
+    width: 200px;
+    padding: 20px;
+}
 
 
 /* footer section */
