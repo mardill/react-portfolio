@@ -197,9 +197,13 @@ black lined to seperate content stylistically */
     filter: grayscale(100%);
 }
 
+#work .other h5 {
+    margin-top: 20px;
+}
+
 
 /* shows original photo color on hover */
-#work img:hover{
+#work .other img:hover{
     filter:none;
 }
 
