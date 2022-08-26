@@ -12,10 +12,9 @@ function About() {
     <div class="right">
         <h1>Hi, I'm Mary</h1>
         <p>
-            I'm a full-time student at UC Berkeley learning skills in web development and full-stack 
-            engineering. These skills include HTML, CSS, Javascript, Node.js and Express.js among
+            I'm a full-time student at UC Berkeley learning skills in web development. These skills include HTML, CSS, Javascript, Node.js, Express.js, MySql, Mongo, React, and GraphQL among
             others. I'm excited to build beautiful web interfaces and applications. You can 
-            view some examples of my recent work below!
+            view some examples on this site.
         </p>
     </div>
 </section>
