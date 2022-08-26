@@ -6,7 +6,7 @@
 
 React Portfolio is a simple front-end react portfolio with miltiple sections. It can be used to show an about me of the user, a portoflio of work samples to highlight, a contact form, and a downloadable resume with a highlight of skills. The react pages are customizable and pages can be added to display other pages. It also has styling for provided images.
 
-https://mary-dillon-portfolio.herokuapp.com/#about
+https://mardill.github.io/react-portfolio
 
 ## Table of Contents
 
