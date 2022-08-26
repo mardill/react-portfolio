@@ -8,22 +8,9 @@ function App () {
         <div>
             <Header />
             <PortfolioContainer />
-            <Footer />
         </div>
     );
 }
-// export default App;
-
-// function App() {
-//     return (
-//         <div>
-//             <Header />
-//             <About />
-//             <Work />
-//             <Contact />
-//         </div>
-//     );
-// }
 
 export default App;
 
