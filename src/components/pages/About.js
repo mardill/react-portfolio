@@ -1,12 +1,11 @@
 import React from 'react';
-// import '../styles/About.css';
 
 
 function About() {
   return (
     <section id="about">
     <div class="left">
-          <img src="./assets/images/marydillon.jpg" alt="Photo of Mary Dillon"/>
+          <img src="src/components/images" alt="Photo of Mary Dillon"/>
      </div>
 
 

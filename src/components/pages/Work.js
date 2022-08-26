@@ -17,13 +17,6 @@ function Work() {
     </div>
 
 
-    <div class="work-highlight">
-        <a href="https://genrosales11.github.io/Yummy-app/" target="_blank">
-            <img src="assets/images/yummy_app.png" alt="Yummy App"/>
-            <h3>CSS Cheatsheet</h3>
-        </a>
-    </div>
-
     <div class="other">
         <div class="p1">
             <a href="https://mardill.github.io/homepage/" target="_blank">
@@ -41,6 +34,24 @@ function Work() {
             <a href="https://pdbesse.github.io/unit-02-mini-project/" target="_blank">
                 <img src="./assets/images/work-3.jpg" alt="Screenshot of Html Card Display"/>
                 <h3>HTML Card Display</h3>
+            </a>
+        </div>
+        <div class="p4">
+            <a href="https://mardill.github.io/homepage/" target="_blank">
+                <img src="./assets/images/work-1.jpg" alt="Simple Homepage Design"/>
+                <h3>Simple Homepage</h3>
+            </a>
+        </div>
+        <div class="p5">
+            <a href="https://mardill.github.io/homepage/" target="_blank">
+                <img src="./assets/images/work-1.jpg" alt="Simple Homepage Design"/>
+                <h3>Simple Homepage</h3>
+            </a>
+        </div>
+        <div class="p6">
+            <a href="https://mardill.github.io/homepage/" target="_blank">
+                <img src="./assets/images/work-1.jpg" alt="Simple Homepage Design"/>
+                <h3>Simple Homepage</h3>
             </a>
         </div>
     </div>
